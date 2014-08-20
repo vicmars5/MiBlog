@@ -1,0 +1,67 @@
+/*Fuentes*/
+@import url(../fonts/KlinicSlab.css);
+@import url(../fonts/FiraSans.css);
+body{
+	font-family: Klinic Slab;
+	font-size: 20px;
+}
+footer{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	background: #2FCC9F;
+	text-align: center;
+	color: white;
+	font-family: Fira Sans;
+}
+figure.autor{
+	padding: 1em;
+}
+figure.autor figcaption{
+	padding: .6em 0 0 0;
+}
+figure.autor img{
+	width: 110px;
+	border-radius: 50%;
+}
+header{
+	background-image: url(../icon/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    height: 400px;
+}
+header div.vista{
+	max-width: 550px;
+	margin-top: 140px;
+	background-color: rgba(103,255,211,.5);
+	color: white;
+	box-shadow: 1px 1px 4px 0px rgba(103, 255, 211, 0.5);
+}
+header div.vista .titulo{
+	width: 555px;
+	font-size: 1.4em;
+	font-weight: bold;
+	padding: 10px;
+	background-color: rgb(255,112,100);
+	box-shadow: 2px 2px 5px 0px rgba(255, 112, 100, 0.75);
+}
+header div.vista .desc{
+	font-size: 1.2em;
+	padding: 10px;
+}
+header div.vista .detalle{
+	font-family: Fira Sans;
+	font-size: .8em;
+}
+nav{
+	width: 100%;
+	text-align: center;
+	color: white;
+	padding: .2em;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.5em;
+	background: #FF7064;
+}
