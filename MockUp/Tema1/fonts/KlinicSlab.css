@@ -36,7 +36,7 @@
 
 @font-face {
     /*klinic_slabbook*/
-    font-family: 'Klinic Slab';
+    font-family: 'Klinic Slab Book';
     src: url('KlinicSlab/klinicslabbook-webfont.eot');
     src: url('KlinicSlab/klinicslabbook-webfont.eot?#iefix') format('embedded-opentype'),
          url('KlinicSlab/klinicslabbook-webfont.woff') format('woff'),
@@ -49,6 +49,17 @@
 
 
 
+@font-face {
+    font-family: 'Klinic Slab';
+    src: url('KlinicSlab/klinicslabmedium-webfont.eot');
+    src: url('KlinicSlab/klinicslabmedium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('KlinicSlab/klinicslabmedium-webfont.woff') format('woff'),
+         url('KlinicSlab/klinicslabmedium-webfont.ttf') format('truetype'),
+         url('KlinicSlab/klinicslabmedium-webfont.svg#klinic_slabmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 @font-face {
     /*klinic_slabbook_italic*/

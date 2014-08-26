@@ -1,0 +1,87 @@
+
+article.post{
+	float: left;
+	margin-top: 1em;
+    background-color: white;
+	box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.1);
+}
+article.post .detalle{
+	position: absolute;
+	bottom: 0;
+	right: 1.1em;
+}
+article.post .portada{
+	background-image: url(../icon/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    height: 320px;
+    margin: 0;
+    float: left;
+}
+article.post .vista{
+	text-align: center;
+	height: 100%;
+}
+div.centrar{
+	padding-left: 50%;
+	width: 100%;
+	background: red;
+	float: left;
+}
+article.post .vista .btn{
+	float: left;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+article.post .vista .titulo{
+}
+article.post .vista .titulo h2{
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #CC3E62;
+}
+header div.vista{
+	float: left;
+	max-width: 550px;
+	margin-top: 140px;
+	margin-left: 20px;
+	background-color: rgba(103,255,211,.5);
+	color: white;
+	box-shadow: 1px 1px 4px 0px rgba(103, 255, 211, 0.5);
+}
+header div.detalle{
+	float: right;
+}
+header div.vista .titulo{
+	width: 555px;
+	font-size: 1.2em;
+	padding: 4px 10px;
+	background-color: rgb(255,112,100);
+	box-shadow: 2px 2px 5px 0px rgba(255, 112, 100, 0.75);
+}
+header div.vista .titulo h2{
+	font-size: 1em;
+	padding: 0;
+	margin: 0;
+}
+header div.vista .desc{
+	padding: 10px;
+}
+
+.detalle{
+	text-align: left;
+	font-family: Fira Sans;
+	font-size: 14px;
+	padding: 10px;
+}
+header div.leer{
+	font-size: 1.4em;
+	position: absolute;
+	top: 140px;
+	left: 60%;
+}
+.titulo{
+	letter-spacing: 0px;
+}
