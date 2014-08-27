@@ -3,7 +3,7 @@
 @import url(../fonts/FiraSans.css);
 body{
 	font-family: Klinic Slab;
-	font-size: 22px;
+	font-size: 20px;
 	letter-spacing: .5px;
 }
 div.btn{
@@ -19,6 +19,10 @@ div.btn.leer{
 }
 div.btn.leer img.icon{
 	margin-top: -.2em;
+}
+div.redes{
+	padding: 10px;
+	float: right;
 }
 footer{
 	width: 100%;
@@ -51,10 +55,6 @@ header{
     width: 100%;
     padding: 0;
 }
-div.redes{
-	padding: 10px;
-	float: right;
-}
 img.icon{
 	height: .8em;
 }
@@ -62,6 +62,8 @@ nav{
 	width: 100%;
 	text-align: center;
 	background: #FF7064;
+	box-shadow: 0px 2px 4px rgba(0,0,0,.5);
+	margin-bottom: 1em;
 }
 nav a{
 	color: white;

@@ -6,9 +6,7 @@ article.post{
 	box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.1);
 }
 article.post .detalle{
-	position: absolute;
-	bottom: 0;
-	right: 1.1em;
+	float: right;
 }
 article.post .portada{
 	background-image: url(../icon/fondo.jpg);
@@ -24,16 +22,13 @@ article.post .vista{
 	text-align: center;
 	height: 100%;
 }
-div.centrar{
-	padding-left: 50%;
-	width: 100%;
-	background: red;
-	float: left;
-}
 article.post .vista .btn{
+	font-size: 1.2em;
 	float: left;
+	margin-left: -50%;
 	margin-top: 1em;
 	margin-bottom: 1em;
+	margin-bottom: 2em;
 }
 article.post .vista .titulo{
 }
@@ -41,6 +36,14 @@ article.post .vista .titulo h2{
 	font-weight: bold;
 	font-size: 1.2em;
 	color: #CC3E62;
+}
+div.centrar{
+	padding-left: 50%;
+	width: 100%;
+	float: left;
+}
+div.centrar .c{
+	float: left;
 }
 header div.vista{
 	float: left;
@@ -69,18 +72,22 @@ header div.vista .titulo h2{
 header div.vista .desc{
 	padding: 10px;
 }
-
-.detalle{
-	text-align: left;
-	font-family: Fira Sans;
-	font-size: 14px;
-	padding: 10px;
-}
 header div.leer{
 	font-size: 1.4em;
 	position: absolute;
 	top: 140px;
 	left: 60%;
+}
+header .detalle{
+	color: rgb(200,200,200);
+}
+.detalle{
+	text-align: right;
+	font-family: Fira Sans;
+	font-size: 14px;
+	padding: 10px;
+	color: rgb(140,140,140);
+	width: 100%;
 }
 .titulo{
 	letter-spacing: 0px;
