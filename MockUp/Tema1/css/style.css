@@ -1,4 +1,4 @@
-/*Fuentes*/
+/*Fuentes grecia 6691664488*/
 @import url(../fonts/KlinicSlab.css);
 @import url(../fonts/FiraSans.css);
 body{
@@ -11,7 +11,6 @@ div.btn{
 	width: auto;
 	padding: 0 1.2em;
 	border-radius: 5px;
-	float: left;
 	font-family: Klinic Slab Book;
 }
 div.btn.leer{
