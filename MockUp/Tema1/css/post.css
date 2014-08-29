@@ -1,10 +1,39 @@
+aside{
+	margin: 1em 0 0 0;
+}
 header h1{
 	width: 100%;
 	margin-top: 140px;
 	font-size: 1.4em;
+	font-style: italic;
 	text-align: center;
 	float: left;
 	display: block;
 	color: white;
 	background: rgba(47,204,159,0.5);
+}
+section{
+	background: white;
+	margin: 1em 0 0 0;
+	padding: 1em;
+	font-size: 1.2em;
+	overflow: hidden;
+}
+.navigation-post{
+	padding-top: .5em;
+	width: 100%;
+	border-top: 2px solid rgb(153,153,153);
+}
+.navigation-post a{
+	color: rgb(255,112,100);
+}
+.navigation-post .before{
+	float: left;
+}
+.navigation-post .next{
+	float: right;
+}
+.navigation-post .glyphicon{
+	font-size: .8em;
+	padding: 0 .2em;
 }

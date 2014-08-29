@@ -1,14 +1,14 @@
 
-article.post{
+section.post{
 	float: left;
 	margin-top: 1em;
     background-color: white;
 	box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.1);
 }
-article.post .detalle{
+section.post .detalle{
 	float: right;
 }
-article.post .portada{
+section.post .portada{
 	background-image: url(../icon/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,11 +18,11 @@ article.post .portada{
     margin: 0;
     float: left;
 }
-article.post .vista{
+section.post .vista{
 	text-align: center;
 	height: 100%;
 }
-article.post .vista .btn{
+section.post .vista .btn{
 	font-size: 1.2em;
 	float: left;
 	margin-left: -50%;
@@ -30,9 +30,9 @@ article.post .vista .btn{
 	margin-bottom: 1em;
 	margin-bottom: 2em;
 }
-article.post .vista .titulo{
+section.post .vista .titulo{
 }
-article.post .vista .titulo h2{
+section.post .vista .titulo h2{
 	font-weight: bold;
 	font-size: 1.2em;
 	color: #CC3E62;
@@ -81,14 +81,7 @@ header div.leer{
 header .detalle{
 	color: rgb(200,200,200);
 }
-.detalle{
-	text-align: right;
-	font-family: Fira Sans;
-	font-size: 14px;
-	padding: 10px;
-	color: rgb(140,140,140);
-	width: 100%;
-}
+
 .titulo{
 	letter-spacing: 0px;
 }

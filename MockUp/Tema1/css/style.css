@@ -6,6 +6,12 @@ body{
 	font-size: 20px;
 	letter-spacing: .5px;
 }
+a{
+	color: #2FCC9F;
+}
+a:hover{
+	color: rgb(103,255,211);
+}
 div.btn{
 	color: white;
 	width: auto;
@@ -80,4 +86,12 @@ nav a:hover{
 }
 span.glyphicon{
 	padding: 0 .5em 0 1em;
+}
+.detalle{
+	text-align: right;
+	font-family: Fira Sans;
+	font-size: 14px;
+	padding: 10px;
+	color: rgb(140,140,140);
+	width: 100%;
 }
