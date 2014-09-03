@@ -19,6 +19,9 @@ section{
 	font-size: 1.2em;
 	overflow: hidden;
 }
+p{
+	font-family: Klinic Slab Book;
+}
 .navigation-post{
 	padding-top: .5em;
 	width: 100%;

@@ -1,0 +1,52 @@
+li.comentario{
+	list-style: none;
+}
+footer.comment-meta{
+	background: none;
+	color: rgb(60,60,60);
+	float: left;
+	text-align: left;
+	font-family: Klinic Slab;
+}
+footer.comment-meta *{
+	float: left;
+}
+footer.comment-meta b{
+	font-size: 18px;
+	color: rgb(140,140,140);
+}
+footer.comment-meta .autor{
+	width: 50px;
+	margin-right: .5em;
+	background: #2FCC9F;
+	padding: 4px;
+}
+footer.comment-meta .comments-meta-data{
+	font-size: 18px;
+	color: rgb(140,140,140);
+}
+footer.comment-meta .glyphicon{
+	font-size: .8em;	
+}
+.comments h2{
+	font-size: 1em;
+	background: #FF7064;
+	color: white;
+	margin: -1em -1em 0em -1em;
+	padding: .3em 1em;
+}
+.comment-content{
+	margin-left: 50px;
+	padding: 0 .5em;
+}
+.comment-content p{
+	font-size: 20px;
+}
+.reply{
+	margin-left: 50px;
+	border-bottom: 2px solid rgb(153,153,153);
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/*Importante: http://desdelacalleatuventana.blogspot.mx/2014/08/hacker-filtra-fotos-desnudas-de.html*/
