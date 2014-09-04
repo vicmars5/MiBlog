@@ -13,7 +13,7 @@ a{
 a:hover{
 	color: rgb(103,255,211);
 }
-div.btn{
+.btn{
 	color: white;
 	width: auto;
 	padding: 0 1.2em;
@@ -50,6 +50,33 @@ figure.autor img{
 	width: 110px;
 	border-radius: 50%;
 }
+
+form{
+	color: rgb(128,128,128);
+	font-size: 18px;
+}
+form label{
+	font-size: 1em;
+	font-weight: bold;
+	display: block;
+}
+form input, textarea{
+	font-size: 1em;
+	display: block;
+	width: 100%;
+	border: 1px solid rgb(230,230,230);
+}
+form .btn{
+	float: right;
+	margin-top: .5em;
+	padding-top: .2em;
+	padding-bottom: .2em;
+	font-size: 1.1em;
+	background: #FF7064;
+	font-weight: bold;
+}
+
+
 header{
 	background-image: url(../icon/fondo.jpg);
     background-repeat: no-repeat;

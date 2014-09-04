@@ -13,7 +13,7 @@
 	<div class="container">
 		<div class="row-fluid">
 			<div class="col-sm-12 col-xs-12 col-md-12 col-lg-12"><header>
-				<!--<div class="redes"><a href="https://twitter.com/MarsVic5" class="twitter-follow-button rs" data-show-count="false" data-lang="es">Seguir a @MarsVic5</a></div>-->
+				<div class="redes"><a href="https://twitter.com/MarsVic5" class="twitter-follow-button rs" data-show-count="false" data-lang="es">Seguir a @MarsVic5</a></div>
 				<h1>Momentos realmente epicos</h1>
 			</header></div>
 			<article class="col-sm-12 col-xs-12 col-md-8 col-lg-8">
@@ -37,12 +37,44 @@
 					</div>
 				</section>
 			</article>
+
+
 			<aside class="col-sm-12 col-xs-12 col-md-4 col-lg-4">
-				dsadas
+				<div class="bio">
+					<figure class="autor"><img src="./icon/autor.jpg" alt="">
+					<figcaption>Víctor Agustín Díaz Méndez</figcaption></figure>
+					<div class="rs">
+						<p>Joven, apasionado por las tecnologias y las artes.</p>
+						<p>Actualmente me encuentro estudiando la preparatoria, y escribo este blog como forma de expresión.</p>
+					</div>
+				</div>
+				<div class="posts-recientes">
+					<h2>Post Recientes</h2>
+					<ul>
+						<li><a href="#">Imagen Sistemas<span class="glyphicon glyphicon-chevron-right"></span></a></li>
+						<li><a href="#">Entrada<span class="glyphicon glyphicon-chevron-right"></span></a></li>
+						<li><a href="#">Entrada<span class="glyphicon glyphicon-chevron-right"></span></a></li>
+					</ul>
+				</div>
 			</aside>
+
+
 			<article class="col-sm-12 col-xs-12 col-md-8 col-lg-8">
 				<section class="comments">
 					<h2>Pensamientos sobre "Momentos realmente epicos"</h2>
+					<div class="nota">Tu dirección de correo electrónico no será publicada. Los campos necesarios están marcados </div>
+					<form action="#" id="comentar">
+						<label for="nombre">Nombre:</label>
+						<input type="text" name="nombre" id="comentar-nombre"/>
+
+						<label for="email">Correo electronico:</label>
+						<input type="text" name="email" id="comentar-email"/>
+
+						<label for="comentario">Comentario:</label>
+						<textarea name="comentario" id="comentar-comentario" cols="30" rows="10"></textarea>
+
+						<input type="submit" class="btn" value="Comentar" />
+					</form>
 					<ol class="comment-list">
 						<li class="comentario">
 							<article class="comment-body">
@@ -54,7 +86,7 @@
 								<div class="comment-content">
 									<p>Hola que hacen chicos</p>
 								</div>
-								<div class="reply">Reply<span class="glyphicon glyphicon-chevron-right"></span></div>
+								<div class="reply"><a href="#" class="btn-reply">Reply<span class="glyphicon glyphicon-chevron-right"></span></a></div>
 								<ol class="children">
 									<li class="comentario">
 										<article class="comment-body">
@@ -68,7 +100,42 @@
 												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit reprehenderit vel quam itaque quisquam ipsam ullam, cum neque inventore tempora voluptatum doloremque error amet accusamus voluptatem, autem iusto. Numquam, illo.</p>
 											</div>
 
-											<div class="reply">Reply<span class="glyphicon glyphicon-chevron-right"></span></div>
+											<div class="reply"><a href="#" class="btn-reply">Reply<span class="glyphicon glyphicon-chevron-right"></span></a></div>
+											<ol class="children">
+												<li class="comentario">
+													
+												</li>
+											</ol>
+										</article>
+									</li>
+								</ol>
+							</article>
+						</li>
+						<li class="comentario">
+							<article class="comment-body">
+								<footer class="comment-meta">
+									<img src="./icon/autor.jpg" alt="" class="autor"/>
+									<b>Juan Perez Perez</b>
+									<div class="comments-meta-data"><span class="glyphicon glyphicon-time"></span>4 agosto 2014 a las 4:30pm</div>
+								</footer>
+								<div class="comment-content">
+									<p>Hola que hacen chicos</p>
+								</div>
+								<div class="reply"><a href="#" class="btn-reply">Reply<span class="glyphicon glyphicon-chevron-right"></span></a></div>
+								<ol class="children">
+									<li class="comentario">
+										<article class="comment-body">
+											<footer class="comment-meta">
+												<img src="./icon/autor.jpg" alt="" class="autor"/>
+												<b>Juan Perez Perez</b>
+												<div class="comments-meta-data"><span class="glyphicon glyphicon-time"></span>4 agosto 2014 a las 4:30pm</div>
+											</footer>
+											<div class="comment-content">
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores cum harum incidunt, nemo voluptatibus mollitia iure minima ab id maiores illum accusamus ipsam, modi aspernatur facilis quo culpa voluptas esse!</p>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit reprehenderit vel quam itaque quisquam ipsam ullam, cum neque inventore tempora voluptatum doloremque error amet accusamus voluptatem, autem iusto. Numquam, illo.</p>
+											</div>
+
+											<div class="reply"><a href="#" class="btn-reply">Reply<span class="glyphicon glyphicon-chevron-right"></span></a></div>
 											<ol class="children">
 												<li class="comentario">
 													

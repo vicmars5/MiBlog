@@ -29,11 +29,9 @@ footer.comment-meta .glyphicon{
 	font-size: .8em;	
 }
 .comments h2{
-	font-size: 1em;
-	background: #FF7064;
-	color: white;
-	margin: -1em -1em 0em -1em;
-	padding: .3em 1em;
+	font-size: 28px;
+	color: #FF7064;
+	margin: 0;
 }
 .comment-content{
 	margin-left: 50px;
@@ -47,6 +45,9 @@ footer.comment-meta .glyphicon{
 	border-bottom: 2px solid rgb(153,153,153);
 	font-weight: bold;
 	font-size: 20px;
+}
+.btn-reply .glyphicon{
+	margin-left: -.5em;
 }
 
 /*Importante: http://desdelacalleatuventana.blogspot.mx/2014/08/hacker-filtra-fotos-desnudas-de.html*/

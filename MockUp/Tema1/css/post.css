@@ -1,6 +1,9 @@
 aside{
 	margin: 1em 0 0 0;
 }
+section{
+	box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.1);
+}
 header h1{
 	width: 100%;
 	margin-top: 140px;
@@ -22,6 +25,15 @@ section{
 p{
 	font-family: Klinic Slab Book;
 }
+
+.bio{
+	text-align: center;
+}
+.bio figure.autor figcaption{
+	font-weight: bold;
+	color: #FF7064;
+}
+
 .navigation-post{
 	padding-top: .5em;
 	width: 100%;
@@ -39,4 +51,16 @@ p{
 .navigation-post .glyphicon{
 	font-size: .8em;
 	padding: 0 .2em;
+}
+.nota{
+	font-size: 16px;
+	float: left;	
+	color: rgb(153,153,153);
+}
+.posts-recientes h2{
+	font-size: 28px;
+	color: #FF7064;
+}
+.posts-recientes ul li{
+	list-style: none;
 }
